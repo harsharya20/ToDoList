@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Londrina+Solid:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding-top: 25px;
+  background: linear-gradient(#fff59d, #fff59d);
+  background-size: cover;
+}
+
+#page-heading {
+  text-align: center;
+  font-family: Londrina Solid;
+  font-size: 70px;
+  color: #2e7d32;
+}
+
+#sheets {
+  display: flex;
+}
+#display {
+  box-sizing: border-box;
+  margin: 0s;
+}
+
+/** Required fields entry**/
+
+input {
+  width: 100%;
+  height: 120px;
+  padding: 20px;
+  font-size: 27px;
+  font-family: Architects Daughter;
+  font-style: inherit;
+  cursor: pointer;
+}
+
+input:focus {
+  background-color: #e4e3e7;
+}
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 1px solid rgb(58, 57, 57);
+}
+
+.flex-child:first-child {
+  margin-right: 1px;
+}
+
+/** Categories drop-down **/
+
+#search_categories {
+  width: 700px;
+  height: 120px;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Architects Daughter;
+  color: gray;
+  cursor: pointer;
+}
+
+#search_categories:focus {
+  background-color: #e4e3e7;
+}
+
+/** Add button **/
+
+.buttons {
+  padding-left: 45%;
+  padding-top: 20px;
+}
+
+button:hover {
+  color: rgb(160, 154, 197);
+}
+
+button {
+  height: 60px;
+  width: 120px;
+  font-size: 15px;
+  font-family: Architects Daughter;
+  cursor: pointer;
+}
+
+button,
+i {
+  padding-right: 5px;
+}
+
+#add {
+  background-color: sandybrown;
+}
+#delete {
+  background-color: rgb(235, 51, 51);
+}
+
+/** Display of things added **/
+
+#things_list {
+  list-style: none;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#blue {
+  background-color: rgb(104, 104, 180);
+}
+
+#green {
+  background-color: rgb(63, 119, 63);
+  font-size: 17px;
+}
+
+/**Display of date**/
+
+#date_disp {
+  font-size: 17px;
+  font-family: Architects Daughter;
+  margin-bottom: 100px;
+}
+
+#description_disp {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Architects Daughter;
+}
+
+#category_disp {
+  display: inline-block;
+  margin-top: -102px;
+  font-family: Architects Daughter;
+}
+
+.del_but i {
+  font-size: 25px;
+  padding-left: 1200px;
+  color: #201d1d;
+  margin-top: -150px;
+  cursor: pointer;
+}
+
+.del_but i:hover {
+  color: rgb(248, 9, 9);
+}
